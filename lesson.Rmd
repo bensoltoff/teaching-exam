@@ -164,6 +164,7 @@ gun_deaths3 <- summarize(gun_deaths2, n = n())
 gun_deaths1 <- filter(gun_deaths, sex == "M", race == "White", year == 2012)
 gun_deaths2 <- group_by(gun_deaths1, education)
 gun_deaths3 <- summarize(gun_deaths2, n = n())
+gun_deaths3
 ```
 
   </p>
